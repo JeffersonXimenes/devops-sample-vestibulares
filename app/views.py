@@ -42,8 +42,8 @@ def about(request):
         'app/about.html',
         context_instance = RequestContext(request,
         {
-            'title':'Sobre',
-            'message':'Software Leader',
+            'title':'Sobre a Software Leader',
+            'message':'',
             'year':datetime.now().year,
         })
     )
