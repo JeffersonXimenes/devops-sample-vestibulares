@@ -28,7 +28,7 @@ def contact(request):
         'app/contact.html',
         context_instance = RequestContext(request,
         {
-            'title':'Contato/Localização',
+            'title':'Contato',
             'message':'Entre em contato conosco',
             'year':datetime.now().year,
         })
